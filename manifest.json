@@ -1,0 +1,16 @@
+{
+"manifest_version": 2,
+
+"name": "mudownloader",
+"version": "0.29",
+"icons": { "256": "favicon.png"  },
+"permissions": ["browserAction","activeTab","webRequest","downloads","<all_urls>"],
+
+"background": {
+ "scripts": ["background.js"],
+ "persistent": true
+},
+
+"browser_action": {}
+
+}
